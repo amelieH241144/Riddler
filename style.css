@@ -1,0 +1,95 @@
+/* AmelieH241144 */
+
+
+body {
+background-color: #F9F7F1;
+font-family: 'Comic Neue', cursive;
+ padding:5px 15px;;
+text-align: center;
+  padding: 10px;
+}
+
+h1{
+   font-size: 36px;
+  margin-bottom: 30px;
+  color: #FF6B6B;
+  align-items: center;
+  text-align: center;
+}
+
+.Centerblock {
+
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: rgba(127, 117, 117, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+#greetingLabel,
+#greeting {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+
+.pretty-label {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1d396d;
+  margin-bottom: 8px;
+ font-family: 'Comic Neue', cursive;
+}
+
+.input-row {
+ display: flex;
+  flex-direction: column;   
+  gap: 10px;                
+   align-items: center;
+}
+input[type="text"] {
+  font-size: 18px;
+  padding: 12px;
+  width: 280px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  font-family: 'Comic Neue', cursive;
+   
+}
+
+button {
+   background-color: #ff6f61;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 20px;
+  margin: 8px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  transition: background-color 0.3s ease;
+ 
+}
+
+button:hover {
+  background-color: #ff3b2e;
+}
+
+.hidden {
+  visibility: hidden;
+  height: 0px;
+  overflow: hidden;
+}
+
+#feedback {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+#scoreDisplay {
+  font-size: 22px;
+  margin-top: 10px;
+  font-weight: bold;
+}
